@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Pck1.Utility&apos; to &apos;Circle&apos;&#x0A;- Original project: &apos;JavaFX Circle Example&apos;&#x0A;- Original element: &apos;Pck1.Utility&apos;&#x0A;- Renamed element: &apos;Pck1.Circle&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Utility&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Pck1{Utility.java[Utility" matchStrategy="1" name="Circle" qualified="false" references="true" similarDeclarations="false" stamp="1697065841630" textual="false" version="1.0"/>
+</session>

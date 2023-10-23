@@ -1,0 +1,39 @@
+package Pck1;
+
+import java.util.ArrayList;
+
+public class Student extends Person {
+
+	public String id;
+	public String major;
+	public String gpa;
+	
+	public Student() {
+		
+	}
+	
+	public Student(String id, String firstName, String lastName, String major, String gpa) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.major = major;
+		this.gpa = gpa;
+	}
+	
+	public static void displayData(ArrayList<Student> list) {
+		for (int i = 0; i < list.size(); i++) {
+			
+		list.toString();
+		System.out.println(list);
+		}
+		
+}
+}	
+
+
+	//public static void displayList(String list) {
+		
+		//list.toString();
+		//System.out.println(list);
+	//}
+//}

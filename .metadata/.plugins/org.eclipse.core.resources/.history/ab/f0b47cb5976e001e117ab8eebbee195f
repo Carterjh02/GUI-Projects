@@ -1,0 +1,62 @@
+package Pck1;
+
+import java.util.ArrayList;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> Chicken = new ArrayList<String>();
+
+		Chicken.add("Chicken Piccata");
+		Chicken.add("Sesame Chicken");
+		Chicken.add("Orange Chicken");
+		Chicken.add("Chicken Nuggets");
+		Chicken.add("Grilled Chicken");
+		Chicken.add("Chicken Rice Bowl");
+		Chicken.add("Chicken Sandwhich");
+		Chicken.add("Chicken Enchilada");
+		Chicken.add("Chicken Parmesean");
+		Chicken.add("Chicken Fried Rice");
+		Chicken.add("Chicken Alfredo");
+		Chicken.add("Chicken Quesadilla");
+		
+		
+		ArrayList<String> Beef = new ArrayList<String>();
+		
+		Beef.add("Stuffed Pepper");
+		Beef.add("Burgers");
+		Beef.add("Beef Enchiladas");
+		Beef.add("Tacos");
+		Beef.add("Picadillo");
+		Beef.add("Lasagna");
+		Beef.add("Spaghetti Casserole");
+		Beef.add("Meatballs");
+		Beef.add("Beef Roast");
+	
+		ArrayList<String> Pork = new ArrayList<String>();
+		
+		Pork.add("Tacos");
+		Pork.add("Porkchop");
+		Pork.add("Ribs");
+		Pork.add("Pork Roast");
+		
+		ArrayList<String> Sides = new ArrayList<String>();
+		
+		Sides.add("Green Beans");
+		Sides.add("Mashed Potato");
+		Sides.add("French Fries");
+		Sides.add("Tortilla Chips");
+		Sides.add("Scallop Potatoes");
+		Sides.add("Rice");
+		Sides.add("Asparagus");
+		
+		for(int i = 0; i < Chicken.size(); i++) {
+			int index = (int)(Math.random() * Chicken.size());
+			System.out.println(Chicken.get(index));
+			
+		
+	}
+
+	}
+}

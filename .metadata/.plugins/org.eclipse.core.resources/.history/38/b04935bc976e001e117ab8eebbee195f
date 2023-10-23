@@ -1,0 +1,18 @@
+package Pck1;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Utility extends MainClass{
+
+	ArrayList<String> Chicken;
+	ArrayList<String> Beef;
+	ArrayList<String> Pork;
+	ArrayList<String> Sides;
+	
+	public String getRandomElement(ArrayList<String> Chicken) {
+		Random rand = new Random();
+		return Chicken.get(rand.nextInt(Chicken.size()));
+		}
+	}
+
